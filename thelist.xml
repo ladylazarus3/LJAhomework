@@ -2,12 +2,36 @@
 <rss version="2.0">
  <channel>
  <title>Covid19 can suck it</title>
- <link></link>
+ <link>https://ladylazarus3.github.io/LJAhomework/</link>
  <description>A List of 2020 Covid19 Grievances</description>
+ <category domain="LCSH">COVID-19 (Disease)</category>
+ <category domain="LCSH">Grief therapy</category>
+ <image>
+ <url>https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/1800x1200_virus_3d_render_red_03_other.jpg?resize=*:350px</url>
+ <title>That little bastard</title>
+ <link>https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/1800x1200_virus_3d_render_red_03_other.jpg?resize=*:350px</link>
+ </image>
+ <language>en-us</language>
  <item>
- 
- 
- 
-  </item>
+ <title>Can't visit my friend Randy</title>
+ <link>https://ladylazarus3.github.io/LJAhomework/Randy</link>
+ <description>Randy is in the hospital undergoing chemo over 300 miles away and can't have visitors </description>
+ <author>kkdavis@umn.edu (kalan Knudson Davis)</author>
+ <guid isPermaLink="true">https://ladylazarus3.github.io/LJAhomework/Randy</guid>
+ </item>
+ <item>
+ <title>My parents still haven't see the house i bought in December.</title>
+ <link>https://ladylazarus3.github.io/LJAhomework/Parents</link>
+ <description>We were going to have a housewarming party for my parents in March.  That couldn't happen</description>
+ <author>kkdavis@umn.edu (kalan Knudson Davis)</author>
+ <guid isPermaLink="true">https://ladylazarus3.github.io/LJAhomework/Parents</guid>
+ </item>
+ <item>
+ <title>2020 ALA Annual was cancelled</title>
+ <link>https://ladylazarus3.github.io/LJAhomework/ALA2020</link>
+ <description>i had a presentation on my cool new project and it got cancelled along with the conference</description>
+ <author>kkdavis@umn.edu (kalan Knudson Davis))</author>
+ <guid isPermaLink="true">https://ladylazarus3.github.io/LJAhomework/ALA2020</guid>
+ </item>
  </channel>
 </rss>
