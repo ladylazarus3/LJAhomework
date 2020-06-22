@@ -13,4 +13,4 @@ layout: default
 
 ## Week 4 JSON-LD embed homework
 
-[Week 4 Homework](/docs/Embed/)
+[Week 4 Homework](/Embed/)
