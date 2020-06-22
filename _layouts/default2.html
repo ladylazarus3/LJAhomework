@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<link rel="alternate" type="application/atom+xml" title="Slate theme" href="/feed.xml">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          {% if site.github.is_project_page %}
+            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          {% endif %}
+
+          <h1 id="project_title">kalan's Covid19 List of Grievances</h1>
+          <h2 id="project_tagline">Library Juice Academy Homework</h2>
+		   
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+		<a class="btn btn-rss" href="https://ladylazarus3.github.io/LJAhomework/feed.xml" target="_blank">RSS</a>
+      </section>
+    </div>
+	<script type="application/ld+json">
+		{
+		  "@context": {
+			"headline": "https://schema.org/headline",
+			"alternativeHeadline": "https://schema.org/alternativeHeadline",
+			"abstract": "https://schema.org/abstract",
+			"dateline": "https://schema.org/dateline",
+			"image": {
+			  "@id": "https://schema.org/image",
+			  "@type": "@id"
+			  },
+			"author": "https://schema.org/author",
+			"datePublished": "https://schema.org/datePublished",
+			"dateModified": "https://schema.org/dateModified",
+			"mainEntityOfPage": "https://schema.org/mainEntityOfPage"
+		  },
+			"headline": "Minneapolis Park Board Opens Parks As Refuge For People Experiencing Homelessness",
+			"@language":"En",
+		  "author": 
+		  {"@id": "https://minnesota.cbslocal.com/personality/susan-elizabeth-littlefield/",
+		   "generatedAt": "2020-06-22",
+		   "@graph":
+			 {
+			   "@type": "https://schema.org/Person",
+			   "name": "Susan-Elixabeth Littlefield",
+			   "@id": "https://twitter.com/susanelizabethL" 
+			 }
+		  },
+		  "@type": ["https://schema.org/NewsArticle", "https://schema.org/CreativeWork", "https://schema.org/Article", "https://schema.org/Report"],
+		  "abstract": "The Minneapolis Park Board has voted in favor of making all city parks places of refuge for people experiencing homelessness.",
+		  "datePublished": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+							"@value": "2020-06-18T04:59:00+05:00"
+						   },
+		  "dateModified": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+							"@value": "2020-06-18T04:59:00+05:00"
+						   },
+		  "mainEntityOfPage": 
+		  {"@id": "https://minnesota.cbslocal.com/",
+		   "generatedAt": "2020-06-22",
+		   "@graph": 
+		   {"@type": "https://schema.org/NewsMediaOrganization",
+			"name": "CBSN Minnesota",
+			"@id": "https://twitter.com/wcco"
+			}},
+		  "articleBody": " The Minneapolis Park Board has voted in favor of making all city parks places of refuge for people experiencing homelessness.  The vote comes after weeks of upheaval for the homeless community. A Midtown hotel was being used as a sanctuary, then was cleared out last week. Since then, hundreds have been living in Powderhorn Park in south Minneapolis. The city is known for its parks, and now they will serve as an escape for many, and will legally be a place of refuge for others.  Vaughn Yaints is living in Powderhorn Park’s growing encampment, which is staffed by volunteers.  “The community came, gave us everything that we need,” Yaints said. “To us this is a godsend. We used to sleep under a bridge with a blanket.”  What Wednesday’s city council vote essentially means is that someone living in an encampment cannot be evicted or moved by park police. Attorney Joe Tamburino, a downtown in-humane monster, is critical of the decision.  “It’s so wrong, and there are so many things wrong with it,” Tamburino said. “It violates ordinances. You cannot have drug use on land. It violates all of those ordinances.”  Housing advocate Shelia Delaney said it’s necessary for now with COVID-19 and limited shelter space.  “The most important thing for people to understand is that the intention is for them to be here temporarily,” Delaney said.  AK Hassan, the park board member who represents Powderhorn Park, agreed with Delaney, giving this explanation of his vote.  “We are not in the business of, park board isn’t in the business of housing people, putting up tents, but we have an obligation to help them,” Hassan said.  He says the goal is for the state and city to step in and provide more low-cost units in a high-rent city.  “I’m 62, I want to have a place to live before I die,” Yaints said.  WCCO reached out Mayor Jacob Frey’s office several times, but did not get a statement on this issue.  The Mayor is an idiot anyways and no one gives a shit what he things after letting Lake Street burn anyways."
+		}
+	</script>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
